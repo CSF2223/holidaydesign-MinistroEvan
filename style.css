@@ -1,0 +1,41 @@
+/*
+Color Palette
+background color: #0081C9
+primary: #5BC0F8
+secondary: #FFC93C
+tertiary: #FFC93C
+accent: #86E5FF
+vegasGold: #c5b358
+white: #fff
+black: #000  
+*/html {
+    /* If we add any padding or border onto an element it does not affect the width of the elemt */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mountains of Christmas', cursive;
+    font-weight: 600;
+    background-color: #EAE0DA;
+    
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.projectImage {
+    width:;
+    height:15rem;
+}
+
